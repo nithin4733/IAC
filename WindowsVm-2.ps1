@@ -7,7 +7,7 @@
 )
 
 $SecurePassword = ConvertTo-SecureString $adminPassword -AsPlainText -Force
-$Credential = New-Object System.Management.Automation.PSCredential ("svkadmin", $SecurePassword); 
+$Credential = New-Object System.Management.Automation.PSCredential ("$adminUsername", $SecurePassword); 
 $zone = 1,2,3
 
 
