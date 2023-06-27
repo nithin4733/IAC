@@ -7,7 +7,7 @@ $vmName = __vmName__
 $adminUsername = __adminUsername__
 $adminPassword = __adminPassword__
 
-$SecurePassword = ConvertTo-SecureString "Creative@3112" -AsPlainText -Force
+$SecurePassword = ConvertTo-SecureString "Creative@3112" -AsPlainText
 $Credential = New-Object System.Management.Automation.PSCredential ("svkadmin", $SecurePassword); 
 $zone = 1,2,3
 $vmcount = 100
