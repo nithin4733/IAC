@@ -2,7 +2,7 @@
 Connect-AzAccount
 
 $resourceGoupName =  __resourceGoupName__
-$azureRegion = __azureRegion__
+$azureRegion = "__azureRegion__"
 $vmName = __vmName__
 $adminUsername = __adminUsername__
 $adminPassword = __adminPassword__
